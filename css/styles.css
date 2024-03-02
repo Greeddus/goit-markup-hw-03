@@ -1,6 +1,6 @@
 /*===================HEADER========================*/
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
   }
@@ -13,12 +13,8 @@ body {
     text-decoration: none;
   }
   .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -36,14 +32,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
   }
   
   .header-nav-img span {
-    color: #4d5ae5;
+    color: #2e2f42;
   }
   
   .header-nav-list {
@@ -64,6 +60,7 @@ body {
   }
   
   .address {
+    font-style: normal;
   }
   .address-list {
   }
@@ -85,23 +82,20 @@ body {
     background: #2e2f42;
   }
   .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.08;
-    letter-spacing: 0.02em;
-    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff;
   }
   .hero-btn {
     border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
   }
   
-  .hero-btn:hover {
+  .hero-btn:hover, .hero-btn:focus {
     background: #404bbf;
   }
   /*===================FEATURES========================*/
@@ -130,6 +124,7 @@ body {
     background: #f4f4fd;
   }
   .team-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -138,7 +133,7 @@ body {
     color: #2e2f42;
   }
   .team-list {
-    background: #f4f4fd;
+    background: #FFFFFF ;
   }
   .team-list-item {
   }
@@ -164,6 +159,7 @@ body {
   .portfolio {
   }
   .portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -201,7 +197,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5 ;
   }
   .footer-link span {
     font-family: "Raleway", sans-serif;
@@ -210,7 +206,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
   }
   .footer-link-text {
     font-weight: 400;
